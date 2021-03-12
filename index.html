@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,19 +21,49 @@
   </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
 
-  New
-  Monograph Dashboard
+  <div id="tot">
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+    <div class="background"></div>
 
-  Schedule a demo
-  to see a live preview
+    <div class="navbar">
+      <img src="./images/logo.svg" class="logo">
+      
+      <div class="menu">
+        <a href="">PRODUCT</a>
+        <a href="">FEATURES</a>
+        <a href="">PRICING</a>
+        <div class="dot"></div>
+        <a class="login" href="">LOGIN</a>
+      </div>
+    </div>
+
+
+
+    <div class="content">
+      <div class="writing">
+        <div class="description">
+          <div>
+            <p class="new"><strong>NEW</strong> MONOGRAPH DASHBOARD</p>
+          </div>
+          <h1 class="title">POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+          <p class="subtitle">Project planning and time tracking for agile teams</p>
+      
+        </div>
+        <div class="decidedItsOk">
+          <button class="orangeBton">SCHEDULE A DEMO</button>
+          <p>TO SEE A PREVIEW</p>
+        </div>
+      </div>
+      
+      <div class="phoneAndLaptop">
+        <img src="./images/illustration-devices.svg" alt="phone and laptop">
+      </div>
+    </div>
+    
+  </div>
+  
+
   
   <footer>
     <p class="attribution">

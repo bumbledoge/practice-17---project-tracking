@@ -30,6 +30,7 @@ h1 {
 }
 .logo {
     width: 30px;
+    height: 30px;
 
     transition: transform 500ms;
 }
@@ -181,29 +182,58 @@ a:hover {
     .content {
         flex-direction: column-reverse;
         align-items: center;
+
+        max-width: 400px;
+        margin: 0px auto;
     }
     .writing {
-        text-align: center;
+        text-align: left;
+
+        margin: 0px auto;
+        margin-top: -180px;
     }
-    /* .navbar a {
-        position: absolute;
-        opacity: 0;
-    } */
     .phoneAndLaptop {
         width: 100px;
-    }
-    .menu {
-        display: flex;
-        flex-direction: column;
+        position: absolute;
+        opacity: 0;
     }
     .dot {
         position: absolute;
         opacity: 0;
     }
+    .navbar {
+        justify-content: space-between;
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    .background {
+        top: -50%;
+    }
     .hamb {
         background: url(/images/icon-hamburger.svg) no-repeat center;
+        
+        width: 30px;
+        height: 30px;
 
-        width: 100px;
-        height: 100px;
+        float: right;
     }
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        
+        width: 200px;
+        height: 300px;
+
+        margin-top: 50px;
+
+        text-align: center;
+        
+        background-color: white;
+        box-shadow: 0px 0px 16px rgb(179, 175, 175);
+
+        opacity: 0;
+    }
+    
 }

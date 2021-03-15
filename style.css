@@ -30,7 +30,11 @@ h1 {
 }
 .logo {
     width: 30px;
-    height: 30px;
+
+    transition: transform 500ms;
+}
+.logo:hover {
+    transform: rotate(20deg);
 }
 a {
     text-decoration: none;
@@ -39,6 +43,7 @@ a {
 }
 a:hover {
     letter-spacing: 5px;
+    text-decoration: underline;
 }
 .menu {
     color: hsl(230, 29%, 20%);
@@ -50,8 +55,9 @@ a:hover {
 
     margin: auto 0px;
 }
+
 .login {
-    color: hsl(231, 7%, 65%);
+    color: hsl(236, 44%, 19%);
 }
 .dot {
     width: 5px;
@@ -139,9 +145,18 @@ a:hover {
     
     background-color: hsl(0, 100%, 68%);
     color: white;
+
+    transition: width 300ms;
 }
 .orangeBton:focus {
     outline: none;
+}
+.orangeBton:active {
+    outline: none;
+    background-color:hsl(0, 100%, 80%)
+}
+.orangeBton:hover {
+    width: 140px;
 }
 .decidedItsOk p {
     color:hsl(231, 7%, 65%);
@@ -156,9 +171,39 @@ a:hover {
 
     position: relative;
 }
+
 @media screen and (max-width: 1050px){
 
     #tot {
-        
+        width: 500px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .writing {
+        text-align: center;
+    }
+    /* .navbar a {
+        position: absolute;
+        opacity: 0;
+    } */
+    .phoneAndLaptop {
+        width: 100px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .dot {
+        position: absolute;
+        opacity: 0;
+    }
+    .hamb {
+        background: url(/images/icon-hamburger.svg) no-repeat center;
+
+        width: 100px;
+        height: 100px;
     }
 }

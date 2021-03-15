@@ -1,75 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Frontend Mentor | Project tracking intro component</title>
+    <title>Frontend Mentor | Project tracking intro component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tot">
+      <div class="background"></div>
 
-  <div id="tot">
+      <div class="navbar">
+        <img src="./images/logo.svg" class="logo" />
 
-    <div class="background"></div>
-
-    <div class="navbar">
-      <img src="./images/logo.svg" class="logo">
-      
-      <div class="menu">
-        <a href="">PRODUCT</a>
-        <a href="">FEATURES</a>
-        <a href="">PRICING</a>
-        <div class="dot"></div>
-        <a class="login" href="">LOGIN</a>
-      </div>
-    </div>
-
-
-
-    <div class="content">
-      <div class="writing">
-        <div class="description">
-          <div>
-            <p class="new"><strong>NEW</strong> MONOGRAPH DASHBOARD</p>
+        <div>
+          <div class="hamb"></div>
+          <div class="menu">
+            <a href="">PRODUCT</a>
+            <a href="">FEATURES</a>
+            <a href="">PRICING</a>
+            <div class="dot"></div>
+            <a class="login" href="">LOGIN</a>
           </div>
-          <h1 class="title">POWERFUL INSIGHTS INTO YOUR TEAM</h1>
-          <p class="subtitle">Project planning and time tracking for agile teams</p>
-      
-        </div>
-        <div class="decidedItsOk">
-          <button class="orangeBton">SCHEDULE A DEMO</button>
-          <p>TO SEE A PREVIEW</p>
         </div>
       </div>
-      
-      <div class="phoneAndLaptop">
-        <img src="./images/illustration-devices.svg" alt="phone and laptop">
+
+      <div class="content">
+        <div class="writing">
+          <div class="description">
+            <div>
+              <p class="new"><strong>NEW</strong> MONOGRAPH DASHBOARD</p>
+            </div>
+            <h1 class="title">POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+            <p class="subtitle">
+              Project planning and time tracking for agile teams
+            </p>
+          </div>
+          <div class="decidedItsOk">
+            <button class="orangeBton">SCHEDULE A DEMO</button>
+            <p>TO SEE A PREVIEW</p>
+          </div>
+        </div>
+
+        <div class="phoneAndLaptop">
+          <img src="./images/illustration-devices.svg" alt="phone and laptop" />
+        </div>
       </div>
     </div>
-    
-  </div>
-  
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>

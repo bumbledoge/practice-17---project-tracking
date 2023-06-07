@@ -1,239 +1,233 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 body {
-    font-family: 'Barlow', sans-serif;
-    overflow-x: hidden;
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
 }
 h1 {
-    font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
-
 
 /*  - Very Dark Blue: hsl(230, 29%, 20%)
     - Dark Grayish Blue: hsl(230, 11%, 40%)
     - Grayish Blue: hsl(231, 7%, 65%)
     - Light Grayish Blue: hsl(207, 33%, 95%) */
 #tot {
-    width: 1000px;
-    margin: 50px auto;
+  width: 1000px;
+  margin: 50px auto;
 }
 
 .navbar {
-    position: relative;
-    
-    display: flex;
-    flex-direction: row;    
+  position: relative;
 
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
 }
 .logo {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 
-    transition: transform 500ms;
+  transition: transform 500ms;
 }
 .logo:hover {
-    transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 a {
-    text-decoration: none;
-    transition: letter-spacing 500ms;
-    color:hsl(230, 29%, 20%);
+  text-decoration: none;
+  transition: letter-spacing 500ms;
+  color: hsl(230, 29%, 20%);
 }
 a:hover {
-    letter-spacing: 5px;
-    text-decoration: underline;
+  letter-spacing: 1.5px;
+  text-decoration: underline;
 }
 .menu {
-    color: hsl(230, 29%, 20%);
-    font-weight: 600;
-    
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+  color: hsl(230, 29%, 20%);
+  font-weight: 600;
 
-    margin: auto 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+
+  margin: auto 0px;
 }
 
 .login {
-    color: hsl(236, 44%, 19%);
+  color: hsl(236, 44%, 19%);
 }
 .dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: hsl(231, 7%, 65%); 
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: hsl(231, 7%, 65%);
 
-    margin: auto 0px;
+  margin: auto 0px;
 }
 
-.content { 
-    margin-top: 100px;
-    
-    display: flex;
-    justify-content: center;
+.content {
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
 }
 .background {
-    position: absolute;
-    width: 1100px;
-    height: 500px;
+  position: absolute;
+  width: 1100px;
+  height: 500px;
 
-    top: -10%;
-    left: 40%;
-    
-    border-radius: 70px;
-    background-color: hsl(0, 0%, 89%);
+  top: -10%;
+  left: 40%;
+
+  border-radius: 70px;
+  background-color: hsl(0, 0%, 89%);
 }
 .writing {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
-    height: 300px;
+  height: 300px;
 }
 
 .new {
-    color:hsl(231, 7%, 65%);
-    letter-spacing: 3px;
-    font-size: 13px;
+  color: hsl(231, 7%, 65%);
+  letter-spacing: 3px;
+  font-size: 13px;
 
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
-.new strong{
-    background-color: hsl(230, 29%, 20%);
-    letter-spacing: 0px;
-    
-    color: white;
-    font-size: 10px;
-    font-family: 'Barlow', sans-serif;
-    text-align: center;
+.new strong {
+  background-color: hsl(230, 29%, 20%);
+  letter-spacing: 0px;
 
-    border: 4px solid hsl(230, 29%, 20%);
-    border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+
+  border: 4px solid hsl(230, 29%, 20%);
+  border-radius: 10px;
 }
 
 .title {
-    color: hsl(230, 29%, 20%);
-    font-size: 50px;
-    line-height: 1;
+  color: hsl(230, 29%, 20%);
+  font-size: 50px;
+  line-height: 1;
 }
 .subtitle {
-    color:hsl(230, 11%, 40%);
-    margin-top: 23px;
-    width: 30ch;
-    font-size: 13px;
-    line-height: 1.5;
+  color: hsl(230, 11%, 40%);
+  margin-top: 23px;
+  width: 30ch;
+  font-size: 13px;
+  line-height: 1.5;
 }
-
-
 
 .decidedItsOk {
-    display: flex;
-    gap: 1rem;
-    
+  display: flex;
+  gap: 1rem;
 }
 .orangeBton {
-    width: 130px;
-    height: 35px;
-    border: none;
-    border-radius: 4px;
-    
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 15px;
-    
-    background-color: hsl(0, 100%, 68%);
-    color: white;
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
 
-    transition: width 300ms;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+
+  background-color: hsl(0, 100%, 68%);
+  color: white;
+
+  transition: width 300ms;
 }
 .orangeBton:focus {
-    outline: none;
+  outline: none;
 }
 .orangeBton:active {
-    outline: none;
-    background-color:hsl(0, 100%, 80%)
+  outline: none;
+  background-color: hsl(0, 100%, 80%);
 }
 .orangeBton:hover {
-    width: 140px;
+  width: 140px;
 }
 .decidedItsOk p {
-    color:hsl(231, 7%, 65%);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 13px;
-    letter-spacing: 4px;
-    
-    margin: auto 0px;
+  color: hsl(231, 7%, 65%);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+
+  margin: auto 0px;
 }
 .phoneAndLaptop {
-    width: 600px;
+  width: 600px;
 
-    position: relative;
+  position: relative;
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
+  #tot {
+    width: 500px;
+  }
 
-    #tot {
-        width: 500px;
-    }
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
 
-    .content {
-        flex-direction: column-reverse;
-        align-items: center;
+    max-width: 400px;
+    margin: 0px auto;
+  }
+  .writing {
+    text-align: left;
 
-        max-width: 400px;
-        margin: 0px auto;
-    }
-    .writing {
-        text-align: left;
+    margin: 0px auto;
+    margin-top: -180px;
+  }
+  .phoneAndLaptop {
+    width: 100px;
+    position: absolute;
+    opacity: 0;
+  }
+  .dot {
+    position: absolute;
+    opacity: 0;
+  }
+  .navbar {
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0px auto;
+  }
+  .background {
+    top: -50%;
+  }
+  .hamb {
+    background: url(/images/icon-hamburger.svg) no-repeat center;
 
-        margin: 0px auto;
-        margin-top: -180px;
-    }
-    .phoneAndLaptop {
-        width: 100px;
-        position: absolute;
-        opacity: 0;
-    }
-    .dot {
-        position: absolute;
-        opacity: 0;
-    }
-    .navbar {
-        justify-content: space-between;
-        max-width: 400px;
-        margin: 0px auto;
-    }
-    .background {
-        top: -50%;
-    }
-    .hamb {
-        background: url(/images/icon-hamburger.svg) no-repeat center;
-        
-        width: 30px;
-        height: 30px;
+    width: 30px;
+    height: 30px;
 
-        float: right;
-    }
-    .menu {
-        display: flex;
-        flex-direction: column;
+    float: right;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
 
-        justify-content: center;
-        
-        width: 200px;
-        height: 300px;
+    justify-content: center;
 
-        margin-top: 50px;
+    width: 200px;
+    height: 300px;
 
-        text-align: center;
-        
-        background-color: white;
-        box-shadow: 0px 0px 16px rgb(179, 175, 175);
+    margin-top: 50px;
 
-        opacity: 0;
-    }
-    
+    text-align: center;
+
+    background-color: white;
+    box-shadow: 0px 0px 16px rgb(179, 175, 175);
+
+    opacity: 0;
+  }
 }
